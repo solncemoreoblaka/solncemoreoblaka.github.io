@@ -1,15 +1,12 @@
-@media only screen and (max-width: 400px) {
-  body {
-    margin: 0px;    
-}
-
 .menu-container {
   color: #fff;
   background-color: #5995DA;
   padding: 0;
   height: 73px;
 }
-
+body {
+    margin: 0px;    
+}
 .container {
   color: #fff;
   background-color: #5995DA;
@@ -24,7 +21,7 @@
 
 .left-container{
     float: left;
-	padding: 10px;
+	padding: 10hx;
 	margin: 0px;	
 }
 
