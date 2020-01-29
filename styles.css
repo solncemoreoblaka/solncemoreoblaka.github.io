@@ -2,7 +2,8 @@
   color: #fff;
   background-color: #5995DA;
   padding: 0;
-  height: 73px;
+  width: 100%;
+  height: auto;
 }
 body {
     margin: 0px;    
@@ -10,8 +11,9 @@ body {
 .container {
   color: #fff;
   background-color: #5995DA;
-  padding: 10px;
-  height: 50px;
+  padding: 10vw;
+  width:100%;
+  height: auto;
  }
 
 .container img {
@@ -21,13 +23,13 @@ body {
 
 .left-container{
     float: left;
-	padding: 10hx;
+	padding: 10vw;
 	margin: 0px;	
 }
 
 .right-container{
     float: right;
-	padding: 10hx;
+	padding: 10vw;
 	margin: 0px;	
 }
 .center-container{
@@ -49,7 +51,8 @@ body {
 .photo-grid-container {
   display: flex;
   justify-content: center;
-  height: 273px;
+  height: 750px;
+  width: auto;
 }
 
 .photo-grid {
@@ -57,11 +60,12 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 273px;
+  height: 750px;
+  width: auto;
 }
 
 .photo-grid-item {
   border: 0px;
-  width: 273px;
-  height: 273px;
+  width: auto;
+  height: 750px;
 }
