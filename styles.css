@@ -77,6 +77,7 @@ body {
 .container {
   width: 15vw;
   display: flex; 
+  float: right;
 }
 
 .container img {
@@ -124,11 +125,11 @@ body {
 }
 
 .photo-grid {
-  width: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 100%;
+  height: auto;
 }
 
 .photo-grid-item {
