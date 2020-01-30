@@ -121,7 +121,7 @@ body {
 .photo-grid-container {
   display: flex;
   justify-content: center;
-  height: 414px;
+  height: auto;
   width: auto;
 }
 
