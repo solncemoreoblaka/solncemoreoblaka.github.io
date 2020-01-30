@@ -90,14 +90,14 @@ body {
     float: left;
 	padding: 0px;
 	margin: 0px;
-	margin-left: 10vw;
+	margin-left: 10px;
 }
 
 .right-container{
     float: right;
 	padding: 0px;
 	margin: 0px;
-	margin-right: 10vw;
+	margin-right: 10px;
 }
 
 .center-container {
