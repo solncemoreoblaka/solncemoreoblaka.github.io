@@ -16,7 +16,7 @@ body {
 
 .container img {
 	height: 100%;
-    width: 414px;
+    width: auto;
 }
 
 .left-container{
@@ -43,7 +43,7 @@ body {
   background-color: #D6E9FE;
 }
 .header-container img {
-    width: 414 px;
+    width: auto;
 	justify-content: center;
 }
 .photo-grid-container {
@@ -114,7 +114,7 @@ body {
   background-color: #D6E9FE;
 }
 .header-container img {
-    width: auto;
+    width: 414px;
 	justify-content: center;
 }
 .photo-grid-container {
