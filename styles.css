@@ -90,13 +90,13 @@ body {
 }
 .left-container{
     float: left;
-	padding: 10vw;
+	padding: 0;
 	margin: 0px;	
 }
 
 .right-container{
     float: right;
-	padding: 10vw;
+	padding: 0;
 	margin: 0px;	
 }
 
