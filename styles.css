@@ -65,3 +65,75 @@ body {
   width: 273px;
   height: 273px;
 }
+/*iphone7+*/
+
+@media only screen and (max-width: 750px) {
+  .menu-container {
+  color: #fff;
+  background-color: #5995DA;
+  padding: 0;
+  height: 73px;
+  width: auto;
+}
+body {
+    margin: 0px;    
+}
+.container {
+  color: #fff;
+  background-color: #5995DA;
+  padding: 1%;
+  height: 5%;
+ }
+
+.container img {
+	height: 100%;
+    width: auto;
+}
+
+.left-container{
+    float: left;
+	padding: 10%;
+	margin: 0px;	
+}
+
+.right-container{
+    float: right;
+	padding: 10%;
+	margin: 0;	
+}
+.center-container{
+    float: center;
+	margin-left: 17%;
+	margin-right: 17%;
+	height: 7%;
+}
+.header-container {
+  color: #5995DA;
+  display: flex;
+  justify-content: center;
+  background-color: #D6E9FE;
+}
+.header-container img {
+    width: auto;
+	justify-content: center;
+}
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  height: 27%;
+}
+
+.photo-grid {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 27%;
+}
+
+.photo-grid-item {
+  border: 0;
+  width: 27%;
+  height: 27%;
+}
+}
