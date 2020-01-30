@@ -109,11 +109,11 @@ body {
 .header-container {
   color: #5995DA;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   background-color: #D6E9FE;
 }
 .header-container img {
-    width: 750px;
+    width: auto;
 	justify-content: center;
 }
 .photo-grid-container {
@@ -128,7 +128,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 273px;
+  height: 100%;
 }
 
 .photo-grid-item {
