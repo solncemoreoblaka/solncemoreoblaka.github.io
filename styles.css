@@ -98,6 +98,7 @@ body {
     float: right;
 	padding: 0px;
 	margin: 0px;
+	margin-right: 10px;
 }
 
 .center-container {
@@ -114,7 +115,7 @@ body {
   background-color: #D6E9FE;
 }
 .header-container img {
-    width: auto;
+    width: 414px;
 	justify-content: center;
 }
 .photo-grid-container {
