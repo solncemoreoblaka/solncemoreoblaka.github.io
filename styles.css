@@ -43,7 +43,7 @@ body {
   background-color: #D6E9FE;
 }
 .header-container img {
-    width: auto;
+    width: 414 px;
 	justify-content: center;
 }
 .photo-grid-container {
