@@ -15,7 +15,7 @@ body {
  }
 
 .container img {
-	height: 100%;
+	height: 26px;
     width: auto;
 }
 
@@ -82,9 +82,10 @@ body {
 }
 
 .container img {
-    height: auto;
+    float: right;
+	padding: 0px;
 	margin: 0px;
-	width: auto;
+	margin-right: 10px;
 }
 .left-container{
     float: left;
