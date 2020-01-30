@@ -21,13 +21,13 @@ body {
 
 .left-container{
     float: left;
-	padding: 10hx;
+	padding: 10vw;
 	margin: 0px;	
 }
 
 .right-container{
     float: right;
-	padding: 10hx;
+	padding: 10vw;
 	margin: 0px;	
 }
 .center-container{
@@ -65,48 +65,36 @@ body {
   width: 273px;
   height: 273px;
 }
+
 /*iphone7+*/
 
 @media only screen and (max-width: 750px) {
-  .menu-container {
-  color: #fff;
-  background-color: #5995DA;
-  padding: 0;
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;  
+}
+
+.container img {
+    height: 80px;
+	margin: 0px;  
+}
+
+.center-container {
+  margin: 0px; 
+  float: center;
   height: 73px;
   width: auto;
 }
-body {
-    margin: 0px;    
-}
-.container {
-  color: #fff;
-  background-color: #5995DA;
-  padding: 1%;
-  height: 5%;
- }
 
-.container img {
-	height: 100%;
-    width: auto;
-}
-
-.left-container{
-    float: left;
-	padding: 10%;
-	margin: 0px;	
-}
-
-.right-container{
-    float: right;
-	padding: 10%;
-	margin: 0;	
-}
-.center-container{
-    float: center;
-	margin-left: 17%;
-	margin-right: 17%;
-	height: 7%;
-}
 .header-container {
   color: #5995DA;
   display: flex;
@@ -120,20 +108,21 @@ body {
 .photo-grid-container {
   display: flex;
   justify-content: center;
-  height: 27%;
+  height: 273px;
+  width: auto;
 }
 
 .photo-grid {
-  width: 90%;
+  width: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  height: 27%;
+  height: 273px;
 }
 
 .photo-grid-item {
-  border: 0;
-  width: 27%;
-  height: 27%;
+  margin: 0px;
+  width: auto;
+  height: auto;
 }
 }
