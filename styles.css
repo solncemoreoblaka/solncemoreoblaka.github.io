@@ -76,9 +76,7 @@ body {
 
 .container {
   width: 15vw;
-  display: flex;
-  justify-content: right;
-  margin: 10px;  
+  display: flex; 
 }
 
 .container img {
