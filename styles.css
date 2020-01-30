@@ -137,4 +137,10 @@ body {
   width: auto;
   height: auto;
 }
+
+.figure {
+    width: 100%;
+    margin: 0;
+}
+	
 }
