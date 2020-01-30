@@ -84,19 +84,19 @@ body {
 }
 
 .container img {
-    height: 80px;
+    height: auto;
 	margin: 0px;
-	width: 100%;
+	width: auto;
 }
 .left-container{
     float: left;
-	padding: 0;
+	padding: 0px;
 	margin: 0px;	
 }
 
 .right-container{
     float: right;
-	padding: 0;
+	padding: 0px;
 	margin: 0px;	
 }
 
