@@ -15,7 +15,7 @@ body {
  }
 
 .container img {
-	height: 26px;
+	height: 100%;
     width: auto;
 }
 
@@ -84,7 +84,8 @@ body {
 .container img {
     float: right;
 	padding: 0px;
-	margin: 0px;
+	margin: 23px;
+	height: 23px;
 	margin-right: 10px;
 }
 .left-container{
