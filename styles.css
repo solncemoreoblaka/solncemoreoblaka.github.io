@@ -68,7 +68,7 @@ body {
 
 /*iphone7+*/
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 750px) {
 .menu-container {
   display: flex;
   flex-wrap: wrap;
@@ -113,7 +113,7 @@ body {
   background-color: #D6E9FE;
 }
 .header-container img {
-    width: 414px;
+    width: 750px;
 	justify-content: center;
 }
 .photo-grid-container {
