@@ -82,7 +82,7 @@ body {
 .container img {
     float: right;
 	padding: 0px;
-	margin: 50px;
+	margin: 0;
 	height: 50px;
 }
 
