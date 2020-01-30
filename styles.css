@@ -78,16 +78,16 @@ body {
   width: 15vw;
   display: flex;
   justify-content: right;
-  margin: 0px;  
+  margin: 10px;  
 }
 
 .container img {
     float: right;
 	padding: 0px;
-	margin: 23px;
-	height: 23px;
-	margin-right: 10px;
+	margin: 50px;
+	height: 50px;
 }
+
 .left-container{
     float: left;
 	padding: 0px;
