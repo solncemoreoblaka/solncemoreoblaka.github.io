@@ -69,6 +69,10 @@ body {
 /*iphone7+*/
 
 @media only screen and (max-width: 750px) {
+.center-container {
+  width: 414px;
+}
+	
 .menu-container {
   flex-wrap: wrap;
 }
@@ -134,7 +138,7 @@ body {
 
 .photo-grid-item {
   margin: 0px;
-  width: 414px;
+  width: 414px ;
   height: auto;
 }
 
