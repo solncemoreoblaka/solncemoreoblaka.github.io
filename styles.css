@@ -82,6 +82,7 @@ body {
   display: flex; 
   float: right;
   padding: 0;
+  margin-top: 10 px;
 }
 
 .container img {
