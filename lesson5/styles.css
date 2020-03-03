@@ -295,6 +295,7 @@
 }
 
 .hahaheheheader-text-container {
+    justify-content: space-around;
     width: 50%;
     left: 50%;
     height: 300px;
@@ -412,7 +413,7 @@
     font-weight: bold;
 }
 
-.1-text-container {
+.T-text-container {
     position: absolute;
     width: 100%;
     height: auto;
@@ -518,10 +519,37 @@
 
 .IM-projects-container {
     display: inline-flex;
+    justify-content: space-around;
     top: 98px;
     position: absolute;
     height: 329px;
     width: 68%;
     left: 16%;
     right: 16%;
+}
+
+.posledniy {
+    background-color: #000000;
+    position: absolute;
+    height: 60px;
+    width: 100%;
+}
+
+.RYAN SMITH {
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    left: 77px;
+    top: 23px;
+    font-family: Arial;
+    font-size: 11px;
+    color: #F1F3F9;
+}
+
+.img.posledniy {
+    position: absolute;
+    height: 20px;
+    width: 205px;
+    left: 90%;
+    top: 22px;
 }
