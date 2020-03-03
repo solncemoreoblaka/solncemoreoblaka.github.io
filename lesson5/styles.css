@@ -530,12 +530,14 @@
 
 .posledniy {
     background-color: #000000;
+    top: 1370px;
+    left: 0px;
     position: absolute;
     height: 60px;
     width: 100%;
 }
 
-.RYAN SMITH {
+.RYAN-SMITH {
     position: absolute;
     height: 60px;
     width: 100%;
