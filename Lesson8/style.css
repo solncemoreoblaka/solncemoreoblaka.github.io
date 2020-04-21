@@ -9,10 +9,6 @@
     color: #E8E9EB
 }
 
-.header-text2 {
-    color: #449cdc;
-}
-
 .container1 {
     float: right;
 }
@@ -27,12 +23,7 @@
     background: #021939;
 }
 
-.bg-white-1 {
-    height: 147px;
-    background: #ffffff;
-}
-
-.bg-white-2 {
+.bg-white {
     height: 147px;
     background: #ffffff;
 }
@@ -51,11 +42,7 @@
     width: 95px;
 }
 
-.text1-post {
-    color: #0b68ab;
-}
-
-.text4-post {
+.text-post {
     color: #0b68ab;
 }
 
@@ -78,10 +65,6 @@
 
 .text8-post {
     font-size: 14px;
-    color: #000000;
-}
-
-.text8-post {
     color: #44DCDC;
 }
 
