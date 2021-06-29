@@ -10957,11 +10957,19 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.gif");
+  background-image: url("../assets/img/background.gif");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  position: relative;
+  z-index: -2;
+  height: 100vh;
+}
+@media screen and (max-width: 900px) {
+  header.masthead {
+    background-image: url("../assets/img/background-mobile.gif");
+  }
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
