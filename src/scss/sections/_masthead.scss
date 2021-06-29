@@ -3,7 +3,7 @@
 //
 
 header.masthead {
-    padding-top: 6rem + 4.5rem;
+    padding-top: 6rem + 6.5rem;
     padding-bottom: 6rem;
     text-align: center;
     color: $white;
@@ -13,12 +13,7 @@ header.masthead {
     background-position: center center;
     background-size: cover;
     position: relative;
-    z-index: -2;
     height:100vh;
-
-    @media screen and (max-width: 900px){
-        background-image: url("../assets/img/background-mobile.gif");
-    }
 
     .masthead-subheading {
         font-size: 1.5rem;
@@ -37,20 +32,21 @@ header.masthead {
     }   
 }
 
-@include media-breakpoint-up(md) {
+@include media-breakpoint-down(md) {
     header.masthead {
-        padding-top: 12.5rem + 4.5rem;
+        background-image: url("../assets/img/background-mobile.gif");
+        padding-top: 10.5rem;
         padding-bottom: 12.5rem;
 
         .masthead-subheading {
-            font-size: 2.25rem;
+            font-size: 1.5rem;
             font-style: italic;
             line-height: 2.25rem;
             margin-bottom: 2rem;
         }
 
         .masthead-heading {
-            font-size: 4.5rem;
+            font-size: 2.5rem;
             font-weight: 700;
             line-height: 4.5rem;
             margin-bottom: 4rem;
