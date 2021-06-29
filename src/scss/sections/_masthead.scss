@@ -7,11 +7,18 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: $white;
-    background-image: url("../assets/img/header-bg.gif");
+    background-image: url("../assets/img/background.gif");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+    position: relative;
+    z-index: -2;
+    height:100vh;
+
+    @media screen and (max-width: 900px){
+        background-image: url("../assets/img/background-mobile.gif");
+    }
 
     .masthead-subheading {
         font-size: 1.5rem;
@@ -27,7 +34,7 @@ header.masthead {
         line-height: 3.25rem;
         margin-bottom: 2rem;
         font-family: $headings-font-family;
-    }
+    }   
 }
 
 @include media-breakpoint-up(md) {
